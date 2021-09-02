@@ -24,7 +24,8 @@ export default function App() {
         keyboardType="numeric" //Estilo de teclado numérico
         /> 
 
-        <Picker // Input para seleção de horas que o aparelho fica ligado (por dia)
+        {/* Biblioteca externa Picker para seleção de quantas horas/dia o aparelho fica ligado */}
+        <Picker
         selectedValue={hour}
         onValueChange={(itemHour, itemIndex) => setHour(itemHour)}
         style={styles.pickers}
@@ -66,7 +67,7 @@ export default function App() {
         placeholder="Dias"
         keyboardType="numeric" />
 
-        {/* Biblioteca TextInputMask para formatação do input */}
+        {/* Biblioteca externa TextInputMask para formatação do input */}
         <TextInputMask // Input de informação de qual é o valor do Kilowatt/hora
         style={styles.textInput}
         type={'money'} // Tipo de input
