@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "energy-calc3",
-    "slug": "energy-calc3",
+    "name": "energy-calc",
+    "slug": "energy-calc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
